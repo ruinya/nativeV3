@@ -5,7 +5,7 @@ const AboutMeScreen = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>О Себе</Text>
-      <Text style={styles.content}>Салют! Меня зовут Кисель!</Text>
+      <Text style={styles.content}>Хеллоу Зэ</Text>
     </View>
   );
 };
@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: '#333',
+    backgroundColor: '#deebf0',
   },
   title: {
     fontSize: 25,
@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
   },
   content: {
     fontSize: 20,
-    color: "#733",
+    color: "#34303b",
   },
 });
 
