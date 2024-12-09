@@ -5,7 +5,7 @@ const NotFoundScreen = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Не найдено</Text>
-      <Text style={styles.content}>Инфы нет</Text>
+      <Text style={styles.content}>Информации не найдено</Text>
     </View>
   );
 };
@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: '#3332',
+    backgroundColor: '##ffcba2',
   },
   title: {
     fontSize: 24,
@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
   },
   content: {
     fontSize: 18,
-    color: "#333",
+    color: "#deebf0",
   },
 });
 
